@@ -5,7 +5,7 @@
 *	notes_for_chord: value of chords;
 */
 
-module ChordtoNotes(
+module FreqtoNote(
     input reg [3:0] chord,
     input wire [3:0] key,
     output wire [15:0] notes_for_chord);
